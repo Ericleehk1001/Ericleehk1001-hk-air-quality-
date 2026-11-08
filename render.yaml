@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: hk-air-quality
-    runtime: python
-    plan: free
-    buildCommand: "true"
-    startCommand: python server.py
-    healthCheckPath: /
